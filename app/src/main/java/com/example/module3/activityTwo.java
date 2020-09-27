@@ -16,8 +16,8 @@ public class activityTwo extends AppCompatActivity {
         Left_side_fragment frag2 = new Left_side_fragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.fragment,frag1);
-        fragmentTransaction.add(R.id.fragment2,frag2);
+        fragmentTransaction.replace(R.id.fragment,frag2);
+        fragmentTransaction.replace(R.id.fragment2,frag1);
         fragmentTransaction.commit();
     }
 }

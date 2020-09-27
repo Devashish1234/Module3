@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment"
         android:layout_width="205dp"
         android:layout_height="732dp"
@@ -21,7 +21,7 @@
 
 
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment2"
         android:layout_width="205dp"
         android:layout_height="729dp"
